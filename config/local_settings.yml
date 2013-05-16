@@ -1,0 +1,12 @@
+defaults: &defaults
+  MIXPANEL_KEY: f0f3f69545bfd9ac7806d835a4fa2b01
+  MIXPANEL_SECRET: 79f0247c22a402972cfa8a69af5f2aa7
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults
