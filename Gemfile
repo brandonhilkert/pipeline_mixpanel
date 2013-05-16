@@ -7,6 +7,9 @@ gem 'thin'
 gem 'rake'
 gem 'mixpanel_client'
 gem 'typhoeus'
+gem 'sprockets'
+gem 'sass'
+gem 'coffee-script'
 
 group :development, :test do
   gem 'pry'

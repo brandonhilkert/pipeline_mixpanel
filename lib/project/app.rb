@@ -3,6 +3,12 @@ module Project
     set :root, Project.root
     enable :sessions
 
+    set :sprockets, Sprockets::Environment.new(root) { |env|
+      env.append_path(root.join('assets', 'stylesheets'))
+      env.append_path(root.join('assets', 'javascripts'))
+      env.append_path(root.join('assets', 'images'))
+    }
+
     configure :development do
       register Sinatra::Reloader
     end
