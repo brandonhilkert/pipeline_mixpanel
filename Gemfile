@@ -11,6 +11,7 @@ gem 'sprockets'
 gem 'sass'
 gem 'coffee-script'
 gem 'json'
+gem 'unicorn'
 
 group :development, :test do
   gem 'pry'
