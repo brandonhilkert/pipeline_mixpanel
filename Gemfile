@@ -10,6 +10,7 @@ gem 'typhoeus'
 gem 'sprockets'
 gem 'sass'
 gem 'coffee-script'
+gem 'json'
 
 group :development, :test do
   gem 'pry'

@@ -73,6 +73,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-script
+  json
   mixpanel_client
   pry
   rake

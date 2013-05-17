@@ -22,5 +22,10 @@ module Project
     get '/' do
       erb :index
     end
+
+    get '/api' do
+      content_type :json
+      Project::Mixpanel.new.all.to_json
+    end
   end
 end
