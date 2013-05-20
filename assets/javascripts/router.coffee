@@ -1,4 +1,4 @@
-class App.Routers.Main extends Backbone.Router
+class App.Router extends Backbone.Router
   initialize: ->
     @$mainEl = $(".content")
 
