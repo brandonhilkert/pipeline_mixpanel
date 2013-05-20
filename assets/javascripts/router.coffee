@@ -4,12 +4,14 @@ class App.Router extends Backbone.Router
 
   routes:
     "": "index"
-    "/daashboard": "dashboard"
+    "/dashboard": "dashboard"
 
   index: ->
     App.router.navigate "/dashboard", trigger: true
 
   dashboard: ->
-    view = new App.Views.Dashboard()
-    @$mainEl.html view.render().el
+    stats = new App.Models.Stats()
+    # view = new App.Views.Dashboard()
+    # @$mainEl.html view.render().el
+    stats.fetch()
 

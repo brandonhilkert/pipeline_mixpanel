@@ -18,10 +18,14 @@ module Project
       @client.run_parallel_requests
 
       {
-        paid_seats_created: extract_stat(paid_seats_created),
-        paid_seats_lost: extract_stat(paid_seats_lost),
-        trial_seats_created: extract_stat(trial_seats_created),
-        trial_seats_lost: extract_stat(trial_seats_lost)
+         paid: {
+           seats_created: extract_stat(paid_seats_created),
+           seats_lost: extract_stat(paid_seats_lost),
+         },
+         trial: {
+           seats_created: extract_stat(trial_seats_created),
+           seats_lost: extract_stat(trial_seats_lost)
+         }
        }
     end
 

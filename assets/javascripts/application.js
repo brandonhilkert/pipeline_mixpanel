@@ -1,12 +1,14 @@
-//= require_tree ./vendor
+//= require ./vendor/jquery-2.0.0.min
+//= require ./vendor/underscore.min
+//= require ./vendor/backbone.min
+//= require ./vendor/handlebars
 
-//= require "app"
-//= require "models"
-//= require "collections"
-//= require "views"
-//= require "router"
+//= require ./app
+//= require ./models
+//= require ./views
+//= require ./router
 
 $(function() {
-  Dashboard.app = new App.Router();
+  App.router = new App.Router();
   Backbone.history.start();
 });
