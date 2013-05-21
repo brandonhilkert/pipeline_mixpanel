@@ -31,5 +31,9 @@ body {
     padding: 20px;
     font-size: 11em;
     font-weight: bold;
+
+    &.bad {
+      color: #cf3636;
+    }
   }
 }
