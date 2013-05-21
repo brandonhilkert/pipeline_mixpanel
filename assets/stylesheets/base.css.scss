@@ -13,8 +13,9 @@ body {
   width: 400px;
   float: left;
   margin: 20px;
+  border-radius: 4px;
 
-  h4 {
+  h2 {
     background: #262626;
     text-transform: uppercase;
     color: #cccccc;
@@ -22,6 +23,7 @@ body {
     margin: 0;
     padding: 20px;
     font-weight: 300;
+    border-radius: 4px;
   }
 
   section {
