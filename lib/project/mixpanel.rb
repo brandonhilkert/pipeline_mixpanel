@@ -51,7 +51,7 @@ module Project
 
     def extract_stat(request)
       response = request.response.handled_response
-      response["results"][@today]
+      response["results"][@today] || 0
     end
   end
 end
