@@ -24,6 +24,7 @@ body {
     padding: 20px;
     font-weight: 300;
     border-radius: 4px;
+    border-bottom: 1px solid #18191b;
 
     .dot {
       color: #79ab4a;
@@ -31,6 +32,7 @@ body {
   }
 
   section {
+    border-top: 1px solid #2e3333;
     text-align: center;
     padding: 20px;
     font-size: 11em;
