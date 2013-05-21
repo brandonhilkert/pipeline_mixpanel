@@ -1,3 +1,33 @@
+body {
+  background-color: #000;
+  color: #79ab4a;
+  font-family: Lato, 'Helvetica Nue', Arial, Serif;
+  font-weight: 300;
+}
 .clear { clear: both; }
 .left { float: left; }
 .right { float: right; }
+
+.stat {
+  background-color: #292929;
+  width: 400px;
+  float: left;
+  margin: 20px;
+
+  h4 {
+    background: #262626;
+    text-transform: uppercase;
+    color: #cccccc;
+    height: 30px;
+    margin: 0;
+    padding: 20px;
+    font-weight: 300;
+  }
+
+  section {
+    text-align: center;
+    padding: 20px;
+    font-size: 11em;
+    font-weight: bold;
+  }
+}
